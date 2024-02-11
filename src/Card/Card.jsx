@@ -1,5 +1,8 @@
 import React from "react";
 
-export function Card(){
+export interface CardProps {
+}
+
+export function Card(): React.PropsWithChildren<CardProps>{
   return <>hello</>;
 }
