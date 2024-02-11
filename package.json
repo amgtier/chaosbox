@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write --parser typescript '**/*.{ts.tsx}'",
-    "build": "vite build"
+    "build": "vite build && tsc"
   },
   "repository": {
     "type": "git",
