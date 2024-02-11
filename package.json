@@ -16,7 +16,7 @@
     "url": "https://github.com/amgtier/chaosbox/issues"
   },
   "homepage": "https://github.com/amgtier/chaosbox#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "react": "^18.2.0"
   }
 }
